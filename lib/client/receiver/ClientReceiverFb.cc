@@ -2435,7 +2435,6 @@ ClientReceiverFb::Impl::afterDecode(const CallBackGenericComment& callBackFuncFo
 
     { // for debug
         if (mGlobalNodeInfo.getMcrtTotal() > mShowMcrtTotal) {
-            std::cerr << mGlobalNodeInfo.showAllHostsName() << '\n';
             mShowMcrtTotal = mGlobalNodeInfo.getMcrtTotal();
         }
     }    
